@@ -1,0 +1,81 @@
+$header-top-bg: #265c9a;
+$header-middle-bg: #1f497b;
+$header-color-text: #ffffff;
+$header-color-text-hover: #fbff3d;
+$border-input-search: #517dae;
+$filter-color-text: #484848;
+$filter-color-title-mob: #333333;
+$filter-color-border: #d0d0d0;
+$filter-color-hover: #e8eeff;
+$filter-color-btn-apply: #ffffff;
+$filter-color-btn-apply-bg: #ff3d3d;
+$filter-color-btn-apply-bg-hover: #ce2929;
+$products-color-border: #dedede;
+$products-color-border-hover: #819deb;
+$products-color-title: #333333;
+$products-color-description: #979797;
+$products-color-price-border: #8eacfc;
+$products-color-price: #325ac0;
+$products-color-price-old: #979797;
+$products-color-price-border-stock: #ffbcbc;
+$products-color-price-stock: #ff3d3d;
+
+.container {
+  width: 100%;
+  max-width: 1129px;
+  margin: 0 auto;
+
+  @media (max-width: 1919.98px) {
+  }
+
+  @media (max-width: 1439.98px) {
+    max-width: 984px;
+  }
+
+  @media (max-width: 1023.98px) {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  @media (max-width: 767.98px) {
+  }
+
+  @media (max-width: 374.98px) {
+  }
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "PT Sans", "Times New Roman", Arial, sans-serif;
+  color: $filter-color-text;
+
+  &.overflow-hidden {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    // padding-right: 15px;
+    overflow: hidden;
+  }
+}
+
+button {
+  padding: 0;
+
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@keyframes show-modal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
