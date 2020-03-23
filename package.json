@@ -2,7 +2,6 @@
   "name": "webcompany-appliances",
   "version": "1.0.0",
   "description": "webcompany-appliances",
-  "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack --mode development",
     "watch": "cross-env NODE_ENV=development webpack --mode development --watch",
